@@ -1,0 +1,5 @@
+name = "Soma"
+grammar = "soma"
+path_suffixes = ["soma"]
+line_comments = ["// "]
+tab_size = 4

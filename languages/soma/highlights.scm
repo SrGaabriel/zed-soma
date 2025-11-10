@@ -1,0 +1,16 @@
+[
+  "use"
+  "intrinsic"
+  "data"
+  "trait"
+  "instance"
+  "where"
+  "def"
+  "let"
+  "in"
+  "compose"
+  "bind"
+  "if"
+  "then"
+  "else"
+] @keyword
