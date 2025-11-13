@@ -2,4 +2,12 @@ name = "Soma"
 grammar = "soma"
 path_suffixes = ["soma"]
 line_comments = ["// "]
+block_comments = ["/* ", " */"]
+autoclose_before = ",=)]}"
 tab_size = 4
+brackets = [
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "\"", end = "\"", close = true, newline = false },
+]

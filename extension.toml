@@ -8,4 +8,4 @@ repository = "https://github.com/srgaabriel/soma"
 
 [grammars.soma]
 repository = "https://github.com/srgaabriel/tree-sitter-soma"
-rev = "f41388ad43ccedc3723be927fd0f0df69f3b85c1"
+rev = "4dd0f9ffee7455d8a5985c58fa2c2a537b7ec80a"

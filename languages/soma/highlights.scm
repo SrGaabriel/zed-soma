@@ -30,6 +30,10 @@
   name: (_) @function
 )
 
+(trait_function_signature
+  name: (_) @function
+)
+
 (data_type_declaration
   name: (type_name) @type
 )
@@ -74,10 +78,12 @@
   function: (identifier) @function)
 
 [
-    (lbraces)
-    (rbraces)
+    "{"
+    "}"
     "("
     ")"
+    "["
+    "]"
 ] @punctuation.bracket
 
 [
