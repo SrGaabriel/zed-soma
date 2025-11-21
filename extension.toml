@@ -1,6 +1,6 @@
 id = "soma"
 name = "Soma"
-version = "0.2.0"
+version = "0.3.0"
 schema_version = 1
 authors = ["Gabriel <gabriel@minatel.dev>"]
 description = "Syntax highlighting and LSP support for the Soma programming language."
