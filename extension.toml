@@ -8,4 +8,8 @@ repository = "https://github.com/srgaabriel/soma"
 
 [grammars.soma]
 repository = "https://github.com/srgaabriel/tree-sitter-soma"
-rev = "4dd0f9ffee7455d8a5985c58fa2c2a537b7ec80a"
+rev = "087c39f567d35639e14822348206b4e8ca41e8b8"
+
+[language_servers.soma]
+name = "Soma Language Server"
+language = "Soma"
