@@ -13,6 +13,7 @@
   (trait)
   (instance)
   (import)
+  (with)
 ] @keyword
 
 (comment) @comment
@@ -46,11 +47,6 @@
   name: (type_name) @type
 )
 
-(trait_constraint
-  parameter: (identifier) @type
-  trait: (type_name) @type
-)
-
 (constructor_pattern
   constructor: (type_name) @constructor
 )
@@ -58,7 +54,7 @@
 (import_path
   (identifier) @module)
 
-(type) @type
+(simple_type) @type
 
 [
   (arrow)

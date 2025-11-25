@@ -1,6 +1,6 @@
 id = "soma"
 name = "Soma"
-version = "0.3.0"
+version = "0.4.0"
 schema_version = 1
 authors = ["Gabriel <gabriel@minatel.dev>"]
 description = "Syntax highlighting and LSP support for the Soma programming language."
@@ -8,8 +8,8 @@ repository = "https://github.com/srgaabriel/soma"
 
 [grammars.soma]
 repository = "https://github.com/srgaabriel/tree-sitter-soma"
-rev = "087c39f567d35639e14822348206b4e8ca41e8b8"
+rev = "e8979df833eec37cb440c791918836dab7308354"
 
 [language_servers.soma]
-name = "Soma Language Server"
+name = "SouLS (Soma Language Server)"
 language = "Soma"

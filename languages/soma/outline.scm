@@ -19,7 +19,7 @@
 
 (trait_declaration
     (trait) @context
-    type: (type) @name
+    type: (_) @name
 ) @item
 
 (trait_function_signature

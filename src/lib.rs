@@ -16,8 +16,8 @@ impl zed::Extension for SomaExtension {
         _worktree: &zed_extension_api::Worktree,
     ) -> zed_extension_api::Result<zed_extension_api::Command> {
         Ok(zed::Command {
-            command: "soma-lsp".to_string(),
-            args: vec!["lsp".to_string()],
+            command: "souls".to_string(),
+            args: vec![],
             env: vec![],
         })
     }
