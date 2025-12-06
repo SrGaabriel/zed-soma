@@ -9,7 +9,7 @@
 
 (instance_declaration
     (instance) @context
-    instance_type: (type) @name
+    instance_type: (qualified_type) @name
 ) @item
 
 (function_declaration

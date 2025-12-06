@@ -39,9 +39,7 @@
   name: (type_name) @type
 )
 
-(data_type_declaration
-  type_parameters: (identifier) @type
-)
+(type_parameters) @type
 
 (intrinsic_data_type
   name: (type_name) @type
@@ -69,6 +67,8 @@
 ] @operator
 
 (constructor_name) @constructor
+(constructor_field
+    field_name: (identifier) @property)
 
 (app_expression
   function: (identifier) @function)
@@ -82,8 +82,20 @@
     "]"
 ] @punctuation.bracket
 
+"\\" @keyword.operator
+
 [
     "."
     "/"
     ","
 ] @punctuation.delimiter
+
+(attribute
+    "[" @attribute
+    "]" @attribute
+) @attribute
+(fn_parameter (identifier) @variable.parameter)
+
+(typed_parameter
+    name: (identifier) @variable.parameter
+)
