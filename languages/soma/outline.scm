@@ -7,6 +7,15 @@
     name: (constructor_name) @name
 ) @item
 
+(struct_declaration
+    "struct" @context
+    name: (type_name) @name
+) @item
+
+(field_declaration
+    name: (identifier) @name
+) @item
+
 (instance_declaration
     (instance) @context
     instance_type: (qualified_type) @name

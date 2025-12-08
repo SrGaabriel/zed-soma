@@ -14,6 +14,8 @@
   (instance)
   (import)
   (with)
+  "export"
+  "struct"
 ] @keyword
 
 (comment) @comment
@@ -35,24 +37,22 @@
   name: (_) @function
 )
 
-(data_type_declaration
-  name: (type_name) @type
-)
-
 (type_parameters) @type
-
-(intrinsic_data_type
-  name: (type_name) @type
-)
 
 (constructor_pattern
   constructor: (type_name) @constructor
+)
+
+(field_declaration
+    name: (identifier) @property
 )
 
 (import_path
   (identifier) @module)
 
 (simple_type) @type
+
+(type_name) @type
 
 [
   (arrow)
@@ -67,8 +67,6 @@
 ] @operator
 
 (constructor_name) @constructor
-(constructor_field
-    field_name: (identifier) @property)
 
 (app_expression
   function: (identifier) @function)
