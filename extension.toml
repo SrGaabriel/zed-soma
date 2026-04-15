@@ -7,8 +7,8 @@ description = "Syntax highlighting and LSP support for the Soma programming lang
 repository = "https://github.com/srgaabriel/soma"
 
 [grammars.soma]
-repository = "https://github.com/srgaabriel/tree-sitter-soma"
-rev = "ea8e27a07601f00d1176c6fc8e6e5e7646be3a99"
+repository = "https://github.com/SrGaabriel/tree-sitter-soma"
+rev = "c88bf74421fe33274b88d2524d64ab14db5c2c13"
 
 [language_servers.souls]
 name = "SouLS (Soma Language Server)"
